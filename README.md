@@ -6,21 +6,21 @@
 
 <p>&nbsp;</p>
 
-[<img alt="CounCert" src="https://i.ibb.co/fdyTwz1/introduction-image-2.png" /> ](https://github.com/GuiGui2401/councert-ui)
+[<img alt="CounCert" src="https://github.com/GuiGui2401/councert-ui/blob/main/src/assets/img/cover.jpg" /> ](https://github.com/GuiGui2401/councert-ui)
 
 <p>&nbsp;</p>
 
 
-Get started and build your dream web app with CounCert, the most trendiest &
-innovative Open Source Admin Template for Chakra UI & React!
+Start managing civil acts effectively with CounCert, the most innovative and trendy platform dedicated to the management of municipal services. 
+Simplify the processing of birth, marriage and death certificates thanks to an intuitive and modern interface, designed with Chakra UI and React.
 
 ---
 
 ### Introduction
 
-Designed for those who like modern UI elements and beautiful websites. Made of
-hundred of elements, designed blocks and fully coded pages, CounCert is ready
-to help you create stunning websites and webapps.
+Designed for those who appreciate modern management and elegant interfaces, 
+CounCert is made up of hundreds of elements, well-designed blocks and fully coded pages. 
+CounCert is ready to support you with web-based and efficient solutions for your municipal management.
 
 ### Documentation
 
