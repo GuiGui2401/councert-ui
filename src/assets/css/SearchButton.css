@@ -1,0 +1,60 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #007A5E;
+  border-radius: 10px;
+  padding: 5px;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  margin-left: 30px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  transition: color 0.3s ease;
+  height: 50px;
+}
+
+/* Configuration par défaut de l'input */
+.search-input {
+  border: none;
+  outline: none;
+  width: 563px;
+  background-color: #007A5E;
+  color: white;
+  padding-left: 10px;
+  transition: color 0.3s ease;
+  height: 50px;
+  font-size: 1.5em;
+}
+
+/* Configuration pour le composant de saisie d'Ant Design */
+.search-input .ant-input {
+  background-color: transparent;
+  color: white;
+  
+}
+
+.search-input .ant-input-suffix {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Changement de couleur au survol et au focus */
+.search-input:hover,
+.search-input:focus {
+  color: #333; /* Couleur du texte au survol/focus */
+}
+
+/* Changement de couleur de l'icône au focus */
+.search-input:focus .ant-input-suffix,
+.search-input:hover .ant-input-suffix {
+  color: #333; /* Couleur de l'icône au survol/focus */
+}
+
+/* Changement de couleur de l'input au focus */
+.search-input .ant-input:focus {
+  color: #333; /* Couleur de l'input au focus */
+}
