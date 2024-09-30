@@ -25,7 +25,7 @@ export default function Birth() {
     <Box pt={{ base: "180px", md: "80px", xl: "100px" }}>
       {/* Main Fields */}
       
-        
+        <br />
         <StatisticCard />
         <br/><br/>
         <Flex>

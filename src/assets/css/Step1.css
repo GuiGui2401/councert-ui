@@ -1,0 +1,67 @@
+/* Step1.css */
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.input-field::placeholder {
+  color: gray;
+}
+
+.gender-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.gender-options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.gender-option {
+  display: flex;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.green-button {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.white-button {
+  background-color: white;
+  color: #007A5E;
+  border: 2px solid #007A5E;
+}

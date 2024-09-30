@@ -3,32 +3,36 @@
     "no" : 1,
     "act" : 6465,
     "name":"Djiala Meli",
-    "status": "Approved",
+    "status": "Completed",
     "date": "18 Apr 2022",
-    "progress": 75.5  
+    "progress": 75.5,
+    "earning" : 2000  
   },
   {
     "no" : 2,
     "act" : 5665,
     "name":"Jonathan Gui",
-    "status": "Disable",
+    "status": "In route",
     "date": "18 Apr 2022",
-    "progress": 25.5  
+    "progress": 25.5,
+    "earning" : 0  
   },
   {
     "no" : 3,
     "act" : 1755,
     "name":"Farouk Zeynab",
-    "status": "Error",
+    "status": "Pending",
     "date": "20 May 2021",
-    "progress": 90  
+    "progress": 90,
+    "earning" : 2000  
   },
   {
     "no" : 4,
     "act" : 8293,
     "name":"Ngufor Daine",
-    "status": "Approved",
+    "status": "Completed",
     "date": "12 Jul 2021",
-    "progress": 50.5  
+    "progress": 50.5,
+    "earning" : 0  
   }
 ]

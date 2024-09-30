@@ -23,6 +23,10 @@ export const columnsDataCheck = [
     Header: "DATE",
     accessor: "date",
   },
+  {
+    Header: "earning",
+    accessor: "earning"
+  },
 ];
 export const columnsDataComplex = [
   {
@@ -48,5 +52,9 @@ export const columnsDataComplex = [
   {
     Header: "PROGRESS",
     accessor: "progress",
+  },
+  {
+    Header: "earning",
+    accessor: "earning"
   },
 ];
