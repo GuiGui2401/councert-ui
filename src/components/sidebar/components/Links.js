@@ -23,6 +23,9 @@ export function SidebarLinks(props) {
     return location.pathname.includes(routeName);
   };
 
+  // Filtrer les 4 premières routes
+  const filteredRoutes = routes.slice(0, 4); // Limiter à 4 premières routes
+
   // this function creates the links from the secondary accordions (for example auth -> sign-in -> default)
   const createLinks = (routes) => {
     return routes.map((route, index) => {
@@ -127,7 +130,7 @@ export function SidebarLinks(props) {
     });
   };
   //  BRAND
-  return createLinks(routes);
+  return createLinks(filteredRoutes);
 }
 
 export default SidebarLinks;

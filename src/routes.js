@@ -13,6 +13,8 @@ import MainDashboard from 'views/admin/default';
 import Birth from 'views/admin/birth';
 import Death from 'views/admin/death';
 import Marriage from 'views/admin/marriage';
+import Profile from 'views/admin/profile';
+import BirthDetails from 'views/admin/birth/Details/BirthDetails';
 
 const routes = [
   {
@@ -50,6 +52,17 @@ const routes = [
     path: '/death',
     icon: <Icon as={MdError  } width="20px" height="20px" color="inherit" />,
     component: <Death />,
+  },
+  {
+    name: '',
+    layout: '/admin',
+    path: '/birth/details', // Nouveau chemin
+    component: <BirthDetails />, // Composant associé
+  },{
+    name: '',
+    layout: '/admin',
+    path: '/default/profile', // Nouveau chemin
+    component: <Profile />, // Composant associé
   },
 ];
 

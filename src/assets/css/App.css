@@ -6,3 +6,10 @@ body {
 option {
   color: black;
 }
+
+@media print {
+  /* Cacher les boutons et autres éléments non nécessaires */
+  button {
+    display: none;
+  }
+}

@@ -181,7 +181,7 @@ export default function HeaderLinks(props) {
               _focus={{ bg: 'none' }}
               borderRadius="8px"
               px="14px"
-              onClick={() => history('/admin/profile')} // Navigate to profile settings
+              onClick={() => history('/admin/default/profile')} // Navigate to profile settings
             >
               <Text fontSize="sm">Profile Settings</Text>
             </MenuItem>

@@ -50,6 +50,11 @@ export const globalStyles = {
       500: "#EE5D50",
       600: "#E31A1A",
     },
+    redButton: {
+      100: "#FCE5E8",  // Couleur plus claire dérivée du rouge central
+      500: "#CE1127",  // Rouge central
+      600: "#B10E22",  // Couleur plus foncée dérivée du rouge central
+    }, 
     blue: {
       50: "#EFF4FB",
       500: "#3965FF",

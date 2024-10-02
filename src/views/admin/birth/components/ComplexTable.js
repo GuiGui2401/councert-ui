@@ -33,6 +33,7 @@ import Menu from 'components/menu/MainMenu';
 import * as React from 'react';
 import { MdCancel, MdCheckCircle, MdOutlineError } from 'react-icons/md';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const columnHelper = createColumnHelper();
 
@@ -44,14 +45,15 @@ export default function ComplexTable(props) {
   let defaultData = tableData;
 
   // État pour gérer les données de la ligne sélectionnée
-  const [selectedRowData, setSelectedRowData] = useState(null);
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const [selectedRowData] = useState(null);
+  const { isOpen, onClose } = useDisclosure();
 
-  // Fonction appelée au clic sur le bouton "Details"
-  const handleDetailsClick = (rowData) => {
-    setSelectedRowData(rowData); // Enregistre les données de la ligne sélectionnée
-    onOpen(); // Ouvre la modale
-  };
+  const navigate = useNavigate();
+
+const handleDetailsClick = (rowData) => {
+  navigate('/admin/birth/details/', { state: { rowData } }); // Navigue vers la page de détails avec les données de la ligne
+};
+
 
   const columns = [
     columnHelper.accessor('no', {
